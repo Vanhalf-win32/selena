@@ -1,4 +1,4 @@
-import comprehensiveDentalServices from "../assets/images/whyChooseUsImages/comprehensiveDentalServices.png";
+import comprehensiveDentalServices from "../assets/images/whyChooseUsImages/img_2.png";
 import doneIcon from "../assets/images/whyChooseUsImages/done.png";
 
 import "../assets/styles/whyChooseUs.css";
@@ -49,7 +49,7 @@ function WhyChooseUs() {
       </div>
       <div className="whyChooseUsImgSide w-full">
         <div className="whyChooseUsImgContent max-lg:max-w-[380px] max-lg:mx-auto">
-          <img src={comprehensiveDentalServices} alt="Comprehensive Dental Services" className="whyChooseUsImg max-lg:text-center" />
+          <img src={comprehensiveDentalServices} alt="Comprehensive Dental Services" className="whyChooseUsImg lg:ml-5 rounded-[40px] drop-shadow-[0_12px_15px_rgba(0,130,255)] max-lg:text-center" />
         </div>
       </div>
     </section>

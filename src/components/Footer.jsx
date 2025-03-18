@@ -7,7 +7,7 @@ import "../assets/styles/footer.css";
 
 const Footer = () => {
   return (
-    <footer className="footerContent max-w-[1200px] mx-auto pt-2 pb-10 max-md:px-2">
+    <footer className="footerContent max-w-[1200px] mx-auto pt-2 pb-10 max-md:px-2 lg:mt-10">
       {/*
       <div className="footerLogoContent max-w-[120px] mx-auto">
         <img src={footerLogo} alt="57Dentcare" className="footerLogo w-full text-center" />
@@ -134,6 +134,14 @@ const Footer = () => {
             </li>
           </div>
         </div>
+      </div>
+      <div className="mt-10">
+        <p>
+          Имеются противопоказания. Необходима консультация врача клиники.<br/>
+          Данный сайт носит информационный характер и не является публичной офертой, определяемой положениями Статьи 437(2) ГК РФ.<br/>
+          <a className="underline">Политика конфиденциальности персональных данных,</a>
+          <a className="underline">  Правила пользования сайтом</a> 
+        </p>
       </div>
     </footer>
   );
