@@ -6,7 +6,7 @@ function AboutUs() {
     <section className="aboutUsContent mt-56 px-3 flex max-w-[1180px] mx-auto max-lg:flex-col max-lg:justify-center max-lg:items-center max-lg:gap-5 max-lg:mb-10">
       <div className="aboutUsImgSide w-full max-lg:order-1">
         <div className="aboutUsImgContent max-w-[500px] max-lg:max-w-[380px]  max-lg:mx-auto">
-          <img src={patientCenteredCare} alt="patientCenteredCare" className="aboutUsImg w-full max-lg:text-center drop-shadow-[0_12px_15px_rgba(0,130,255)] rounded-[40px]" />
+          <img src={patientCenteredCare} alt="patientCenteredCare" className="aboutUsImg w-full max-lg:text-center drop-shadow-[0_8px_10px_rgba(0,130,255)]   rounded-[40px]" />
         </div>
       </div>
       <div className="aboutUsInfoSide w-full">

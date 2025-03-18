@@ -34,7 +34,7 @@ const Hero = () => {
       <section className="qualityContent max-w-[1200px] mx-auto px-3 max-lg:pt-[100px] max-[850px]:pt-[0px] max-[850px] mt-[-50px]">
         <div className="qualityBoxes z-10 relative flex flex-wrap items-start justify-center gap-5">
           {/* Free Consultation */}
-          <div className="qualityBox border-[1px] drop-shadow-[0_12px_15px_rgba(0,130,255)]">
+          <div className="qualityBox border-[1px] drop-shadow-[0_8px_10px_rgba(0,130,255)]">
             <div className="qualityBoxImgContent">
               <img src={freeConsultation} alt="Free Consultation" className="qualityBoxImg"/>
             </div>
@@ -44,7 +44,7 @@ const Hero = () => {
             </p>
           </div>
           {/* Expert Dentist */}
-          <div className="qualityBox border-[1px] drop-shadow-[0_12px_15px_rgba(0,130,255)]">
+          <div className="qualityBox border-[1px] drop-shadow-[0_8px_10px_rgba(0,130,255)]">
             <div className="qualityBoxImgContent">
               <img src={expertDentist} alt="Expert Dentist" className="qualityBoxImg"/>
             </div>
@@ -54,7 +54,7 @@ const Hero = () => {
             </p>
           </div>
           {/* High User Rating */}
-          <div className="qualityBox border-[1px] drop-shadow-[0_12px_15px_rgba(0,130,255)]">
+          <div className="qualityBox border-[1px] drop-shadow-[0_8px_10px_rgba(0,130,255)]">
             <div className="qualityBoxImgContent">
               <img src={highUserRating} alt="High User Rating" className="qualityBoxImg" />
             </div>
@@ -64,7 +64,7 @@ const Hero = () => {
             </p>
           </div>
           {/* Best Equipment */}
-          <div className="qualityBox border-[1px] drop-shadow-[0_12px_15px_rgba(0,130,255)]">
+          <div className="qualityBox border-[1px] drop-shadow-[0_8px_10px_rgba(0,130,255)]">
             <div className="qualityBoxImgContent">
               <img src={bestEquipment} alt="Best Equipment" className="qualityBoxImg" />
             </div>
