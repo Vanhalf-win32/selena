@@ -3,7 +3,7 @@ import logoDental from "../assets/images/headerImages/logo_dental_1.png";
 function Header() {
   return (
     <header className="headerContent flex justify-between items-center max-w-[1200px] 
-      mx-auto py-5 px-3 mb-5 border-blue-500 bg-white border-b-[4px] rounded-[20px]
+      mx-auto py-5 px-3 mb-5 border-blue-500 border-b-[5px] backdrop-blur-xl rounded-[20px]
       sticky top-0 z-20  overflow-auto">
       <div className="text-[55px]
           max-lg:text-[40px] max-lg:max-w-[500px] max-[850px]:text-center 
@@ -23,38 +23,38 @@ function Header() {
            <img src={logoDental} alt="logo"/>
         </div>      
       </div>
-      <div className="headerMenuContent max-lg:hidden lg:mt-6">
+      <div className="headerMenuContent max-lg:hidden lg:mt-6 tracking-tight">
         <ul className="headerMenuList flex justify-center items-center gap-5 text-[17px]">
-          <li className="headerMenuListItem font-medium">
-            <a href="/" className="headerMenuListItemLink">
+          <li className="text-[18px] font-sans tracking-tight">
+            <a href="/" className=" drop-shadow-lg">
               О нас
             </a>
           </li>
-          <li className="headerMenuListItem font-medium">
+          <li className="text-[18px] font-sans tracking-tight">
             <a href="#services" className="headerMenuListItemLink">
               Услуги и цены
             </a>
           </li>
-          <li className="headerMenuListItem font-medium">
+          <li className="text-[18px] font-sans tracking-tight">
             <a href="#aboutUs" className="headerMenuListItemLink">
               Врачи
             </a>
           </li>
-          <li className="headerMenuListItem font-medium">
+          <li className="text-[18px] font-sans tracking-tight">
             <a href="#whyChooseUs" className="headerMenuListItemLink">
               Контакты
             </a>
           </li>
-          <li className="headerMenuListItem font-medium">
+          <li className="text-[18px] font-sans tracking-tight">
             <a href="/documents" className="headerMenuListItemLink">
               Документы
             </a>
           </li>
         </ul>
       </div>
-      <div className="headerMenuListItem font-medium headerMenuContent lg:mt-2 flex-col flex items-center lg:text-[14px] text-[10px] lg:w-[150px] w-[100px]">
+      <div className="lg:mt-2 flex-col flex justify-center items-center lg:text-[14px] text-[10px] lg:w-[180px] w-[100px]">
         <img width='38' id="specialButton" style={{cursor: "pointer"}} src="https://lidrekon.ru/images/special.png" alt="ВЕРСИЯ ДЛЯ СЛАБОВИДЯЩИХ" title="ВЕРСИЯ ДЛЯ СЛАБОВИДЯЩИХ" />
-        <span className="lg:w-full w-[70px] flex justify-center items-center text-center">Версия<br/>для слабовидящих</span>
+        <span className="lg:w-full w-[70px] text-center">Версия для слабовидящих</span>
       </div>      
       <div className="headerContactContent">
         <button className="headerContactButton 

@@ -11,8 +11,8 @@ import doc_10 from "../assets/docs/Акт об уничтожении персо
 
 function Documents() {
   return (
-    <section className="mx-auto min-h-[800px] flex flex-col max-w-[1000px]"> 
-      <h1 className="text-[46px] flex justify-center font-bold mt-5">
+    <section className="mx-auto min-h-[800px] flex flex-col max-w-[1000px] p-8 border-[3px] border-gray-100 shadow-blue-500 rounded-[30px] shadow-xl"> 
+      <h1 className="text-[46px] flex justify-center font-sans tracking-tight font-bold mt-5">
         Документы
       </h1>
       <h2 className="mt-[30px] items-end text-[30px] font-bold">

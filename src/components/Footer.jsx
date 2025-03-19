@@ -16,8 +16,8 @@ const Footer = () => {
       */}
       <div className="footerColumns mt-5 flex justify-between items-start gap-5 max-xl:flex-wrap max-xl:justify-center">
         {/* Company Column */}
-        <div className="footerColumn">
-          <h3 className="footerColumnTitle font-semibold text-[20px] mb-3 text-blue-500">Селена</h3>
+        <div className="footerColumn font-sans leading-6">
+          <h3 className="footerColumnTitle font-bold text-[20px] mb-3 text-blue-500">Селена</h3>
           <ul className="footerColumnList">
             <li className="footerColumnListItem">
               <a href="/" className="footerColumnListItemLink">
@@ -54,8 +54,8 @@ const Footer = () => {
 
         {/* Pages Column */}
 
-        <div className="footerColumn">
-          <h3 className="footerColumnTitle font-semibold text-[20px] mb-3 text-blue-500">Разделы</h3>
+        <div className="footerColumn font-sans leading-6">
+          <h3 className="footerColumnTitle font-bold text-[20px] mb-3 text-blue-500">Разделы</h3>
           <ul className="footerColumnList">
             <li className="footerColumnListItem">
               <a href="/" className="footerColumnListItemLink">
@@ -86,8 +86,8 @@ const Footer = () => {
         </div>
 
         {/* Address Column */}
-        <div className="footerColumn">
-          <h3 className="footerColumnTitle font-semibold text-[20px] mb-3 text-blue-500">Адрес</h3>
+        <div className="footerColumn font-sans leading-6">
+          <h3 className="footerColumnTitle font-bold text-[20px] mb-3 text-blue-500">Адрес</h3>
           <p className="footerDesc">Ростов-на-Дону, проспект Нагибина 14б</p>
           <a href="/" className="footerLink">
             Посмотреть на карте
@@ -101,7 +101,7 @@ const Footer = () => {
 
         {/* Social Media Column */}
 
-        <div className="footerColumn">
+        <div className="footerColumn font-sans leading-6">
           <h3 className="footerColumnTitle font-semibold text-[20px] mb-3 text-blue-500">Акции</h3>
           <p className="footerDesc mb-2">Будьте в курсе наших последних новостей</p>
           <div className="footerInputContent relative w-full max-w-[306px] border-[1px] border-blue-500 rounded-[30px]">

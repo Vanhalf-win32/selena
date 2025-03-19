@@ -19,57 +19,57 @@ const Hero = () => {
           max-lg:text-[40px] max-lg:max-w-[500px] max-[850px]:text-center 
           max-[850px]:max-w-full
           max-[850px]:text-[30px]
-          max-md:pt-0 text-gray-900
-          drop-shadow-[0_3px_2px_rgba(105,105,105)]
+          max-md:pt-0 text-white
+          drop-shadow-[0_6px_8px_rgba(0,0,0)]
           "
           >
             Совершенство стоматологии начинается здесь:<br/> 
             Ваш путеводитель к более яркой и здоровой улыбке
           </h1>
         </div>
-        <div className="heroImgContent w-full max-w-[500px] absolute bottom-30 lg:right-8 right-0 max-lg:max-w-[500px] max-[850px]:relative">
-          <img src={heroImg} alt="Smiling Woman" className="w-[430px]" />
+        <div className="heroImgContent w-full max-w-[500px] absolute bottom-30 right-0 max-lg:max-w-[500px] max-[850px]:relative">
+          <img src={heroImg} alt="Smiling Woman" className="w-[440px]" />
         </div>
       </section>
       <section className="qualityContent max-w-[1200px] mx-auto px-3 max-lg:pt-[100px] max-[850px]:pt-[0px] max-[850px] mt-[-50px]">
         <div className="qualityBoxes z-10 relative flex flex-wrap items-start justify-center gap-5">
           {/* Free Consultation */}
-          <div className="qualityBox border-[1px] drop-shadow-[0_8px_10px_rgba(0,130,255)]">
+          <div className="qualityBox drop-shadow-[0_4px_4px_rgba(0,130,255)] leading-5 hover:bg-blue-200">
             <div className="qualityBoxImgContent">
               <img src={freeConsultation} alt="Free Consultation" className="qualityBoxImg"/>
             </div>
-            <h3 className="qualityBoxTitle">Бесплатная консультация</h3>
-            <p className="qualityBoxDesc">
+            <h3 className="qualityBoxTitle font-sans font bold tracking-tight">Бесплатная консультация</h3>
+            <p className="qualityBoxDesc font-sans font bold tracking-tight">
               Мы предлагаем гибкий график приема и бесплатную консультацию.
             </p>
           </div>
           {/* Expert Dentist */}
-          <div className="qualityBox border-[1px] drop-shadow-[0_8px_10px_rgba(0,130,255)]">
+          <div className="qualityBox drop-shadow-[0_4px_4px_rgba(0,130,255)] leading-5 hover:bg-blue-200">
             <div className="qualityBoxImgContent">
               <img src={expertDentist} alt="Expert Dentist" className="qualityBoxImg"/>
             </div>
-            <h3 className="qualityBoxTitle">Эксперты-стоматологи</h3>
-            <p className="qualityBoxDesc">
+            <h3 className="qualityBoxTitle font-sans font-bold tracking-tight">Эксперты-стоматологи</h3>
+            <p className="qualityBoxDesc font-sans tracking-tight">
               Наша команда опытных стоматологов может похвастаться многолетним опытом в различных областях стоматологии.
             </p>
           </div>
           {/* High User Rating */}
-          <div className="qualityBox border-[1px] drop-shadow-[0_8px_10px_rgba(0,130,255)]">
+          <div className="qualityBox drop-shadow-[0_4px_4px_rgba(0,130,255)] leading-5 hover:bg-blue-200">
             <div className="qualityBoxImgContent">
               <img src={highUserRating} alt="High User Rating" className="qualityBoxImg" />
             </div>
-            <h3 className="qualityBoxTitle">Высокий рейтинг у пользователей</h3>
-            <p className="qualityBoxDesc">
+            <h3 className="qualityBoxTitle font-sans tracking-tight">Высокий рейтинг у пользователей</h3>
+            <p className="qualityBoxDesc font-sans tracking-tight">
             Мы всегда стаемся предложить удобный график приема для пациентов и высокий уровень сервиса.
             </p>
           </div>
           {/* Best Equipment */}
-          <div className="qualityBox border-[1px] drop-shadow-[0_8px_10px_rgba(0,130,255)]">
+          <div className="qualityBox drop-shadow-[0_4px_4px_rgba(0,130,255)] leading-5 hover:bg-blue-200">
             <div className="qualityBoxImgContent">
               <img src={bestEquipment} alt="Best Equipment" className="qualityBoxImg" />
             </div>
-            <h3 className="qualityBoxTitle">Лучшее оборудование</h3>
-            <p className="qualityBoxDesc">
+            <h3 className="qualityBoxTitle font-sans tracking-tight">Лучшее оборудование</h3>
+            <p className="qualityBoxDesc font-sans tracking-tight">
               Наша команда стремится сделать ваше посещение стоматологии максимально комфортным и беззаботным
             </p>
           </div>

@@ -3,7 +3,7 @@
   min-height: 300px;
   width: 100%;
   position: relative;
-  padding: 1.5rem;
+  padding: 1.5em;
   border-radius: 40px;
   border: 2px;
   border-color: black;
@@ -11,7 +11,7 @@
 }
 .serviceBoxTitle {
   font-weight: 600;
-  font-size: 32px;
+  font-size: 30px;
   line-height: 36px;
   margin-bottom: 0.5rem;
 }

@@ -11,14 +11,14 @@ function AboutUs() {
       </div>
       <div className="aboutUsInfoSide w-full">
         <h3 className="font-sans font-bold text-[60px] text-[rgb(0,130,255)] drop-shadow-[0_2px_3px_rgba(50,130,255)]">Селена</h3>
-        <h2 className="sectionMainTitle text-left mb-6 font-semibold text-[36px]">Лучшее стоматологическое лечение</h2>
-        <p className="sectionDesc text-[18px]">
+        <h2 className="sectionMainTitle text-left mb-6 font-sans font-bold text-[36px] leading-10">Лучшее стоматологическое лечение</h2>
+        <p className="sectionDesc font-sans text-[18px] leading-6">
           Мы стремимся предоставлять исключительную стоматологическую помощь в теплой и гостеприимной обстановке. 
           Наша команда опытных, отзывчивых и высококвалифицированных специалистов готова сделать ваше посещение стоматолога комфортным и беззаботным.
         </p>
-        <h4 className="sectionInfoTitle font-medium text-[22px] my-2">Наша цель</h4>
-        <p className="sectionDesc text-[18px]">
-          В стоматологии <b className="text-blue-500" >"Селена"</b> наша миссия заключается в содействии оптимальному здоровью полости рта и создании долговечных, уверенных улыбок.
+        <h4 className="sectionInfoTitle font-sans font-bold text-[22px] my-2">Наша цель</h4>
+        <p className="sectionDesc font-sans leading-6  text-[18px]">
+          В стоматологии <b className="text-blue-500 font-sans font-bold">"Селена"</b> наша миссия заключается в содействии оптимальному здоровью полости рта и создании долговечных, уверенных улыбок.
         </p>
         <div className="bookingButtonContent ">
           <button className="bookingButton shadow-buttonShadow bg-secondary flex items-center gap-2 px-5 py-2 rounded-[30px] font-semibold h-[50px] mt-2 relative">
