@@ -28,7 +28,7 @@ const Hero = () => {
           </h1>
         </div>
         <div className="heroImgContent w-full max-w-[500px] absolute bottom-30 lg:right-8 right-0 max-lg:max-w-[500px] max-[850px]:relative">
-          <img src={heroImg} alt="Smiling Woman" className="heroImg w-full" />
+          <img src={heroImg} alt="Smiling Woman" className="w-[430px]" />
         </div>
       </section>
       <section className="qualityContent max-w-[1200px] mx-auto px-3 max-lg:pt-[100px] max-[850px]:pt-[0px] max-[850px] mt-[-50px]">

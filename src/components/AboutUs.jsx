@@ -10,7 +10,7 @@ function AboutUs() {
         </div>
       </div>
       <div className="aboutUsInfoSide w-full">
-        <h3 className="sectionSubTitle font-semibold text-[40px]  text-left text-secondary text-blue-500">Селена</h3>
+        <h3 className="font-sans font-bold text-[60px] text-[rgb(0,130,255)] drop-shadow-[0_2px_3px_rgba(50,130,255)]">Селена</h3>
         <h2 className="sectionMainTitle text-left mb-6 font-semibold text-[36px]">Лучшее стоматологическое лечение</h2>
         <p className="sectionDesc text-[18px]">
           Мы стремимся предоставлять исключительную стоматологическую помощь в теплой и гостеприимной обстановке. 
@@ -21,7 +21,7 @@ function AboutUs() {
           В стоматологии <b className="text-blue-500" >"Селена"</b> наша миссия заключается в содействии оптимальному здоровью полости рта и создании долговечных, уверенных улыбок.
         </p>
         <div className="bookingButtonContent ">
-          <button className="bookingButton shadow-buttonShadow bg-secondary flex items-center gap-2 px-5 py-2 rounded-[30px] font-semibold h-[50px] mt-5 relative">
+          <button className="bookingButton shadow-buttonShadow bg-secondary flex items-center gap-2 px-5 py-2 rounded-[30px] font-semibold h-[50px] mt-2 relative">
             Узнать больше
             <div className="bookingButtonImgContent max-w-[13px] flex items-center justify-center">
               <img src={contactArrow} alt="Arrow" className="bookingButtonImg w-full" />

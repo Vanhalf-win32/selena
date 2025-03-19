@@ -5,7 +5,7 @@ function Header() {
     <header className="headerContent flex justify-between items-center max-w-[1200px] 
       mx-auto py-5 px-3 mb-5 border-blue-500 bg-white border-b-[4px] rounded-[20px]
       sticky top-0 z-20  overflow-auto">
-      <div className="heroTitle text-[55px]
+      <div className="text-[55px]
           max-lg:text-[40px] max-lg:max-w-[500px] max-[850px]:text-center 
           max-[850px]:max-w-full
           max-[850px]:text-[30px]
@@ -58,7 +58,7 @@ function Header() {
       </div>      
       <div className="headerContactContent">
         <button className="headerContactButton 
-          lg:w-[210px] lg:h-[55px] lg:text-[18px] 
+          lg:w-[210px] lg:h-[55px] lg:text-[20px] 
           h-[30px] text-[10px] font-bold text-white
           text-center flex justify-center items-center 
           gap-2 border-solid bg-[rgb(0,140,255)] drop-shadow-[0_3px_2px_rgba(105,105,105)] rounded-[25px]">

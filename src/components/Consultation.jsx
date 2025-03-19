@@ -1,4 +1,4 @@
-import consultationPerson from "../assets/images/consultationImages/consultationPerson.png";
+import hero_0 from "../assets/images/consultationImages/hero_0.png";
 import contactArrow from "../assets/images/headerImages/arrow.png";
 import "../assets/styles/consultation.css";
 
@@ -6,9 +6,9 @@ import "../assets/styles/consultation.css";
 function Consultation() {
   
   return (
-    <section className="consultationContent mt-56 grid grid-cols-[0.4fr_0.6fr] place-items-center max-w-[1140px] mx-auto my-10 gap-5 rounded-[50px] max-lg:flex max-lg:flex-col max-lg:w-fit max-lg:p-5">
-      <div className="consultationImgSide max-lg:p-5 max-md:p-0">
-        <img src={consultationPerson} alt="Dentist" className="consultationImg w-full max-w-[484px] max-h-[502px] drop-shadow-[0_8px_10px_rgba(0,130,255)] rounded-[50px]" />
+    <section className="consultationContent mt-56 grid grid-cols-[0.4fr_0.6fr] place-items-center max-w-[1040px] mx-auto my-10 gap-5 rounded-[50px] max-lg:flex max-lg:flex-col max-lg:w-fit max-lg:p-5">
+      <div className="flex justify-center lg:w-[400px] lg:h-[450px] shadow-xl shadow-[rgb(0,130,255)] rounded-[40px] ">
+        <img src={hero_0} alt="Dentist" className="w-[320px]" />
       </div>
       <div className="consultationFormSide max-lg:p-5 max-md:p-0">
         <h2 className="sectionMainTitle text-center mb-6 font-semibold text-[36px]">Бесплатная консультация</h2>

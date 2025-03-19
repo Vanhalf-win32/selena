@@ -3,6 +3,7 @@ import vkLogo from "../assets/images/footerImages/vk.png";
 import whatsappLogo from "../assets/images/footerImages/whatsapp.png";
 import instagramLogo from "../assets/images/footerImages/instagram.png";
 import telegramLogo from "../assets/images/footerImages/telegram.png";
+import doc_1 from "../assets/docs/Политика в отношении обработке персональных данных.pdf";
 import "../assets/styles/footer.css";
 
 const Footer = () => {
@@ -139,7 +140,7 @@ const Footer = () => {
         <p>
           Имеются противопоказания. Необходима консультация врача клиники.<br/>
           Данный сайт носит информационный характер и не является публичной офертой, определяемой положениями Статьи 437(2) ГК РФ.<br/>
-          <a className="underline">Политика конфиденциальности персональных данных,</a>
+          <a href={doc_1} className="underline">Политика конфиденциальности персональных данных,</a>
           <a className="underline">  Правила пользования сайтом</a> 
         </p>
       </div>

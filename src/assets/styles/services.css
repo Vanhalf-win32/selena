@@ -3,8 +3,10 @@
   min-height: 300px;
   width: 100%;
   position: relative;
-  padding: 1rem;
-  border-radius: 20px;
+  padding: 1.5rem;
+  border-radius: 40px;
+  border: 2px;
+  border-color: black;
   overflow: hidden;
 }
 .serviceBoxTitle {
@@ -37,9 +39,7 @@
   bottom: 0rem;
   right: 0;
 }
-.serviceBoxImg {
-  width: 100%;
-}
+
 @media (max-width: 500px) {
   .serviceBox {
     min-height: auto;

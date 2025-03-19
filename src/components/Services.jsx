@@ -1,36 +1,32 @@
-import teethWhitening from "../assets/images/servicesImages/teethWhitening.png";
-import dentalImplant from "../assets/images/servicesImages/dentalImplant.png";
-import teethFillings from "../assets/images/servicesImages/teethFillings.png";
-import oralSurgery from "../assets/images/servicesImages/oralSurgery.png";
-import crownAndBridges from "../assets/images/servicesImages/crownAndBridges.png";
-import periodontalCare from "../assets/images/servicesImages/periodontalCare.png";
-
+import hero_1 from "../assets/images/heroImages/hero.png";
+import hero_2 from "../assets/images/servicesImages/hero_2.png";
+import hero_3 from "../assets/images/servicesImages/hero_3.png";
 import "../assets/styles/services.css";
 
 function Services() {
   return (
-    <section className="serviceContent mt-56 max-w-[1200px] mx-auto my-10">
-      <h1 className="sectionMainTitle text-center mb-6 font-semibold text-[38px]">Стоматология<br/><b className="text-blue-500 text-[60px]">Селена</b></h1>
+    <section className="serviceContent mt-48   max-w-[1200px] mx-auto my-10">
+      <h1 className="text-center mb-6 text-[48px]">Стоматология<br/><span className="font-sans font-bold text-[60px] text-[rgb(0,130,255)] drop-shadow-[0_2px_3px_rgba(50,130,255)]">Селена</span></h1>
       <h2 className="sectionMainTitle text-center mb-6 font-semibold text-[30px]">Только лучшее лечение зубов</h2>
       <div className="serviceBoxes flex items-center justify-center flex-wrap gap-5">
         {/* Teeth Whitening */}
-        <div className="serviceBox bg-lightYellow">
+        <div className="serviceBox shadow-lg shadow-[rgb(0,130,255)]">
           <div className="serviceBoxImgContent">
-            <img src={teethWhitening} alt="Teeth Whitening" className="serviceBoxImg" />
+            <img src={hero_1} alt="Teeth Whitening" className="w-[200px]" />
           </div>
           <h3 className="serviceBoxTitle">Отбеливание зубов</h3>
           <p className="serviceBoxDesc">
             Косметическая процедура для улучшения белизны зубов
           </p>
           <a href="#" className="serviceButton">
-            Узнать больше
+            Узнать больше...
           </a>
         </div>
 
         {/* Dental Implant */}
-        <div className="serviceBox bg-lightRed">
+        <div className="serviceBox shadow-lg shadow-[rgb(0,130,255)]">
           <div className="serviceBoxImgContent">
-            <img src={dentalImplant} alt="Dental Implant" className="serviceBoxImg" />
+            <img src={hero_2} alt="Dental Implant" className="w-[165px]" />
           </div>
           <h3 className="serviceBoxTitle">Имплантация</h3>
           <p className="serviceBoxDesc">
@@ -42,9 +38,9 @@ function Services() {
         </div>
 
         {/* Teeth Fillings */}
-        <div className="serviceBox bg-lightGreen">
+        <div className="serviceBox shadow-lg shadow-[rgb(0,130,255)]">
           <div className="serviceBoxImgContent">
-            <img src={teethFillings} alt="Teeth Fillings" className="serviceBoxImg" />
+            <img src={hero_3} alt="Teeth Fillings" className="w-[170px]" />
           </div>
           <h3 className="serviceBoxTitle">Пломбирование зубов</h3>
           <p className="serviceBoxDesc">
@@ -57,9 +53,9 @@ function Services() {
         </div>
 
         {/* Oral Surgery */}
-        <div className="serviceBox bg-lightRed">
+        <div className="serviceBox lg:mt-5 shadow-lg shadow-[rgb(0,130,255)]">
           <div className="serviceBoxImgContent">
-            <img src={oralSurgery} alt="Oral Surgery" className="serviceBoxImg" />
+            <img src={hero_1} alt="Oral Surgery" className="w-[200px]" />
           </div>
           <h3 className="serviceBoxTitle">Хирургия полости рта</h3>
           <p className="serviceBoxDesc">
@@ -71,9 +67,9 @@ function Services() {
         </div>
 
         {/* Crown And Bridges */}
-        <div className="serviceBox bg-lightGreen">
+        <div className="serviceBox lg:mt-5 shadow-lg shadow-[rgb(0,130,255)]">
           <div className="serviceBoxImgContent">
-            <img src={crownAndBridges} alt="Crown And Bridges" className="serviceBoxImg" />
+            <img src={hero_2} alt="Crown And Bridges" className="w-[165px]" />
           </div>
           <h3 className="serviceBoxTitle">Коронки и мосты</h3>
           <p className="serviceBoxDesc">   
@@ -85,9 +81,9 @@ function Services() {
         </div>
 
         {/* Periodontal Care */}
-        <div className="serviceBox bg-lightYellow">
+        <div className="serviceBox lg:mt-5 shadow-lg shadow-[rgb(0,130,255)]">
           <div className="serviceBoxImgContent">
-            <img src={periodontalCare} alt="Periodontal Care" className="serviceBoxImg" />
+            <img src={hero_3} alt="Periodontal Care" className="w-[170px]" />
           </div>
           <h3 className="serviceBoxTitle">Пародонтологический уход</h3>
           <p className="serviceBoxDesc">
