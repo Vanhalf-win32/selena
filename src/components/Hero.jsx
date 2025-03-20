@@ -1,4 +1,4 @@
-import heroImg from "../assets/images/heroImages/hero.png";
+import heroImg from "../assets/images/heroImages/hero1.png";
 // import background from "../assets/images/heroImages/background.png";
 import contactArrow from "../assets/images/headerImages/headerContactArrow.png";
 
@@ -32,9 +32,9 @@ const Hero = () => {
         </div>
       </section>
       <section className="qualityContent max-w-[1200px] mx-auto px-3 max-lg:pt-[100px] max-[850px]:pt-[0px] max-[850px] mt-[-50px]">
-        <div className="qualityBoxes z-10 relative flex flex-wrap items-start justify-center gap-5">
+        <div className="qualityBoxes z-10 relative flex flex-wrap items-start justify-center gap-5 ">
           {/* Free Consultation */}
-          <div className="qualityBox drop-shadow-[0_4px_4px_rgba(0,130,255)] leading-5 hover:bg-blue-200">
+          <div className="qualityBox drop-shadow-[0_4px_4px_rgba(0,130,255)] transition delay-150 hover:scale-105 leading-5 hover:bg-blue-200">
             <div className="qualityBoxImgContent">
               <img src={freeConsultation} alt="Free Consultation" className="qualityBoxImg"/>
             </div>
@@ -44,7 +44,7 @@ const Hero = () => {
             </p>
           </div>
           {/* Expert Dentist */}
-          <div className="qualityBox drop-shadow-[0_4px_4px_rgba(0,130,255)] leading-5 hover:bg-blue-200">
+          <div className="qualityBox drop-shadow-[0_4px_4px_rgba(0,130,255)] transition delay-150 hover:scale-105 leading-5 hover:bg-blue-200">
             <div className="qualityBoxImgContent">
               <img src={expertDentist} alt="Expert Dentist" className="qualityBoxImg"/>
             </div>
@@ -54,7 +54,7 @@ const Hero = () => {
             </p>
           </div>
           {/* High User Rating */}
-          <div className="qualityBox drop-shadow-[0_4px_4px_rgba(0,130,255)] leading-5 hover:bg-blue-200">
+          <div className="qualityBox drop-shadow-[0_4px_4px_rgba(0,130,255)] transition delay-150 hover:scale-105 leading-5 hover:bg-blue-200">
             <div className="qualityBoxImgContent">
               <img src={highUserRating} alt="High User Rating" className="qualityBoxImg" />
             </div>
@@ -64,7 +64,7 @@ const Hero = () => {
             </p>
           </div>
           {/* Best Equipment */}
-          <div className="qualityBox drop-shadow-[0_4px_4px_rgba(0,130,255)] leading-5 hover:bg-blue-200">
+          <div className="qualityBox drop-shadow-[0_4px_4px_rgba(0,130,255)] transition delay-150 hover:scale-105 leading-5 hover:bg-blue-200">
             <div className="qualityBoxImgContent">
               <img src={bestEquipment} alt="Best Equipment" className="qualityBoxImg" />
             </div>

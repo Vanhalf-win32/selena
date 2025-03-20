@@ -11,14 +11,14 @@ import doc_10 from "../assets/docs/Акт об уничтожении персо
 
 function Documents() {
   return (
-    <section className="mx-auto min-h-[800px] flex flex-col max-w-[1000px] p-8 border-[3px] border-gray-100 shadow-blue-500 rounded-[30px] shadow-xl"> 
-      <h1 className="text-[46px] flex justify-center font-sans tracking-tight font-bold mt-5">
+    <section className="mx-auto min-h-[800px] lg:mt-10 flex flex-col max-w-[1000px] p-10 border-[2px] border-b-[5px] border-gray-300  shadow-blue-500 rounded-[30px] shadow-xl"> 
+      <h1 className="text-[46px] flex justify-center font-sans tracking-tight font-bold mt-5 drop-shadow-[0_4px_3px_rgb(192,192,192)]">
         Документы
       </h1>
-      <h2 className="mt-[30px] items-end text-[30px] font-bold">
+      <h2 className="mt-[30px] items-end text-[30px] font-bold drop-shadow-[0_4px_3px_rgb(192,192,192)]">
         Общая информация
       </h2>
-      <p className="">
+      <p className="p-2">
         <b>Полное наименование:</b>
         <br/>Общество с ограниченной ответственностью "Селена"
         <br/><b>Краткое наименование:</b>
@@ -38,19 +38,22 @@ function Documents() {
         <br/><a className="underline">Sokolova_Elena@selena.dental </a>    
       </p>
       <div>
-        <h2 className="mt-[30px] items-end text-[30px] font-bold">
+        <h2 className="mt-[30px] items-end text-[30px] font-bold drop-shadow-[0_4px_3px_rgb(192,192,192)]">
           Юридическая документация
         </h2>
-        <a href={doc_1} className="underline">Согласие на обработку персональных данных</a><br/>
-        <a href={doc_2} className="underline">Согласие на обработку персональных данных разрешенных субъектом персональных данных для распространения</a><br/>
-        <a href={doc_3} className="underline">Приказ об утверждении политики в отношении обработки персональных данных и положения об обработке и защите персональных данных работников</a><br/>
-        <a href={doc_4} className="underline">Приказ о создании комиссии по уничтожению персональных данных</a><br/>
-        <a href={doc_5} className="underline">Приказ о назначении ответственного за организацию обработки персональных данных</a><br/>
-        <a href={doc_6} className="underline">Правила обработки обезличенных персональных данных</a><br/>
-        <a href={doc_7} className="underline">Положение об обработке и защите персональных данных работников</a><br/>
-        <a href={doc_8} className="underline">Политика в отношении обработке персональных данных</a><br/>
-        <a href={doc_9} className="underline">Акт оценки вреда</a><br/>
-        <a href={doc_10} className="underline">Акт об уничтожении персональных данных</a><br/>
+        <div className="p-2">
+          <a href={doc_1} className="underline">Согласие на обработку персональных данных</a><br/>
+          <a href={doc_2} className="underline">Согласие на обработку персональных данных разрешенных субъектом персональных данных для распространения</a><br/>
+          <a href={doc_3} className="underline">Приказ об утверждении политики в отношении обработки персональных данных и положения об обработке и защите персональных данных работников</a><br/>
+          <a href={doc_4} className="underline">Приказ о создании комиссии по уничтожению персональных данных</a><br/>
+          <a href={doc_5} className="underline">Приказ о назначении ответственного за организацию обработки персональных данных</a><br/>
+          <a href={doc_6} className="underline">Правила обработки обезличенных персональных данных</a><br/>
+          <a href={doc_7} className="underline">Положение об обработке и защите персональных данных работников</a><br/>
+          <a href={doc_8} className="underline">Политика в отношении обработке персональных данных</a><br/>
+          <a href={doc_9} className="underline">Акт оценки вреда</a><br/>
+          <a href={doc_10} className="underline">Акт об уничтожении персональных данных</a><br/>          
+        </div>
+
       </div>
     </section>
   );

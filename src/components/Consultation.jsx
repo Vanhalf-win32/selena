@@ -7,7 +7,7 @@ function Consultation() {
   
   return (
     <section className="consultationContent mt-56 grid grid-cols-[0.4fr_0.6fr] place-items-center max-w-[1040px] mx-auto my-10 gap-5 rounded-[50px] max-lg:flex max-lg:flex-col max-lg:w-fit max-lg:p-5">
-      <div className="flex lg:w-[400px] lg:h-[330px] shadow-xl drop-shadow-[0_4px_8px_rgba(0,130,255)] rounded-[30px] overflow-hidden">
+      <div className="flex lg:w-[400px] lg:h-[330px] shadow-xl drop-shadow-[0_4px_8px_rgba(0,130,255)] transition delay-150 duration-500 hover:scale-105 rounded-[30px] overflow-hidden">
         <img src={hero_0} alt="Dentist" className="w-full h-full" />
       </div>
       <div className="consultationFormSide max-lg:p-5 max-md:p-0">

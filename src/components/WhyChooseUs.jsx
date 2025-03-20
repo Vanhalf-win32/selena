@@ -12,7 +12,7 @@ function WhyChooseUs() {
         <ul className="whyChooseUsList">
           <li className="whyChooseUsListItem flex items-start justify-start gap-2">
             <div className="whyChooseUsListItemIconContent">
-              <img src={doneIcon} alt="why Choose Us" className="whyChooseUsListItemIcon w-full" />
+              <img src={doneIcon} alt="why Choose Us" className="whyChooseUsListItemIcon w-full"/>
             </div>
             <p className="whyChooseUsListItemDesc font-sans leading-7">
               <strong>Опытные специалисты:</strong><br/>Наша команда состоит из высококвалифицированных и опытных специалистов-стоматологов.
@@ -47,7 +47,7 @@ function WhyChooseUs() {
           </li>
         </ul>
       </div>
-      <div className="whyChooseUsImgSide w-full">
+      <div className="whyChooseUsImgSide transition delay-150 duration-500 hover:scale-105 w-full">
         <div className="whyChooseUsImgContent max-lg:max-w-[380px] max-lg:mx-auto">
           <img src={comprehensiveDentalServices} alt="Comprehensive Dental Services" className="whyChooseUsImg lg:ml-5 rounded-[40px] drop-shadow-[0_8px_10px_rgba(0,130,255)] max-lg:text-center" />
         </div>
