@@ -14,7 +14,7 @@ function Contacts() {
             <div className="p-10">
                 <div>
                     <h3 className="text-[30px] font-bold drop-shadow-[0_4px_3px_rgb(192,192,192)]">
-                        Режим работы:
+                        Режим работы
                     </h3>
                     <span>
                         Понедельник-суббота: 8:00 - 20:00<br/>
@@ -23,7 +23,7 @@ function Contacts() {
                 </div>
                 <div>
                     <h3 className="mt-[30px] items-end text-[30px] font-bold drop-shadow-[0_4px_3px_rgb(192,192,192)]">
-                        Адрес:
+                        Адрес
                     </h3>
                     <span>
                         344038, Ростовская область,<br/> г.Ростов-на-Дону, Проспект Михаила Нагибина 14б
@@ -32,7 +32,7 @@ function Contacts() {
                 <div className="flex">
                     <div className="w-1/4">
                         <h3 className="mt-[30px] items-end text-[30px] font-bold drop-shadow-[0_4px_3px_rgb(192,192,192)]">
-                            Телефон:
+                            Телефон
                         </h3>
                         <span>
                             +7 (938) 170-55-55<br/> +7 (928) 170-88-84
@@ -40,15 +40,15 @@ function Contacts() {
                     </div>
                     <div className="w-1/4">
                         <h3 className="mt-[30px] items-end text-[30px] font-bold drop-shadow-[0_4px_3px_rgb(192,192,192)]">
-                            E-mail:
+                            E-mail
                         </h3>
                         <span>
-                            Sokolova_Elena@selena.sental
+                            Sokolova_Elena@selena.dental
                         </span>                            
                     </div>
                 </div>
                 <div className='mt-10'>
-                    <img src={map} alt="maps" className='w-full border-[1px] border-gray-400 border-b-[4px] rounded-[30px] shadow-lg'/>
+                    <img src={map} alt="maps" className='w-full border-[1px] border-gray-400 border-b-[4px] rounded-[30px] shadow-2xl'/>
                 </div>           
             </div>
 

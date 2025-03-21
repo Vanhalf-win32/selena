@@ -27,12 +27,12 @@ function Header() {
       <div className="headerMenuContent max-lg:hidden lg:mt-6 tracking-tight">
         <ul className="headerMenuList flex justify-center items-center gap-5 text-[17px]">
           <li className="text-[18px] font-sans tracking-tight">
-            <a href="/aboutUs" className=" drop-shadow-lg">
+            <a href="/aboutUs" className="drop-shadow-lg">
               О нас
             </a>
           </li>
           <li className="text-[18px] font-sans tracking-tight">
-            <a href="#services" className="headerMenuListItemLink">
+            <a href="/price" className="headerMenuListItemLink">
               Услуги и цены
             </a>
           </li>
